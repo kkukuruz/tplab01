@@ -30,6 +30,7 @@ tree
 Подсчитайте количество заголовочных файлов, файлов с расширением .cpp, сколько остальных файлов (не заголовочных и не .cpp)
 
 find . -name "*.cpp" | wc -l
+
 find . -not -name "*.cpp" | wc -l
 ![image](https://user-images.githubusercontent.com/116309607/222500003-24824e6e-ec1d-464a-8a49-0c3feb157274.png)
 
